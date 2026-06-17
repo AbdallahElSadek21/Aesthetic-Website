@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Account &mdash; B&amp;S Aesthetics</title>
+  <link rel="icon" type="image/png" href="Logo/bnslogoWhitebgchatbot.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Inter:wght@300;400;500;600;700&family=Pinyon+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+  <div class="announcement">
+    <div class="announcement__track">
+      <div class="announcement__group">
+        <span>&#10022; Complimentary delivery on orders over &pound;150</span>
+        <span>&#10022; 10% off your first order &mdash; code <b>WELCOME10</b></span>
+      </div>
+      <div class="announcement__group" aria-hidden="true">
+        <span>&#10022; Complimentary delivery on orders over &pound;150</span>
+        <span>&#10022; 10% off your first order &mdash; code <b>WELCOME10</b></span>
+      </div>
+    </div>
+  </div>
+
+  <header class="header" id="header">
+    <div class="header__inner container">
+      <div class="header__left">
+        <button class="header__menu" aria-label="Menu" id="menuToggle"><span></span><span></span></button>
+        <a href="index.html" class="header__brand" aria-label="B&amp;S Aesthetics home">
+          <img src="Logo/bnslogoWhitebgchatbot.png" alt="" class="header__logo" aria-hidden="true">
+          <span class="header__wordmark"><span class="header__wordmark-name">B<i>&amp;</i>S</span><span class="header__wordmark-tag">Aesthetics</span></span>
+        </a>
+      </div>
+      <div class="header__right">
+        <button aria-label="Search" class="header__action" data-search-open>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+        </button>
+        <a href="login.html" aria-label="Account" class="header__action">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-7 8-7s8 3 8 7"/></svg>
+        </a>
+        <button aria-label="Cart" class="header__action header__cart" data-cart-toggle>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 6h18l-2 12H5L3 6z"/><path d="M8 6V4a4 4 0 0 1 8 0v2"/></svg>
+          <span class="header__cart-count is-empty">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="account-main">
+    <div class="container">
+      <section class="account-shell" id="accountShell" hidden>
+        <aside class="account-side">
+          <div class="account-side__profile">
+            <div class="account-side__avatar" id="accountAvatar">B</div>
+            <div>
+              <span class="eyebrow">Member since <span id="accountSince">—</span></span>
+              <h2 id="accountGreeting">Welcome back</h2>
+              <p id="accountEmail"></p>
+            </div>
+          </div>
+          <nav class="account-nav" aria-label="Account">
+            <button type="button" class="is-active" data-account-tab="orders">Orders</button>
+            <button type="button" data-account-tab="profile">Profile</button>
+            <button type="button" data-account-tab="addresses">Addresses</button>
+            <button type="button" data-account-tab="preferences">Preferences</button>
+          </nav>
+          <button type="button" class="account-logout" id="accountLogout">Sign out</button>
+        </aside>
+
+        <div class="account-content">
+          <section class="account-tab is-active" data-account-pane="orders">
+            <header class="account-tab__head">
+              <h2>Orders</h2>
+              <p>Track your past purchases and reorder favorites in a tap.</p>
+            </header>
+            <div class="account-orders" id="accountOrders"></div>
+            <div class="account-empty" id="accountOrdersEmpty" hidden>
+              <h3>No orders yet</h3>
+              <p>When you place your first order, it will appear here.</p>
+              <a href="index.html" class="btn btn--primary"><span>Start shopping</span></a>
+            </div>
+          </section>
+
+          <section class="account-tab" data-account-pane="profile">
+            <header class="account-tab__head">
+              <h2>Profile</h2>
+              <p>Your contact details. Used at checkout.</p>
+            </header>
+            <dl class="account-detail-list" id="accountProfile"></dl>
+          </section>
+
+          <section class="account-tab" data-account-pane="addresses">
+            <header class="account-tab__head">
+              <h2>Addresses</h2>
+              <p>Address book is pulled from your most recent order.</p>
+            </header>
+            <div class="account-detail-list" id="accountAddresses">
+              <p class="account-empty__inline">No saved addresses yet.</p>
+            </div>
+          </section>
+
+          <section class="account-tab" data-account-pane="preferences">
+            <header class="account-tab__head">
+              <h2>Preferences</h2>
+              <p>Marketing and content preferences.</p>
+            </header>
+            <ul class="account-prefs">
+              <li><label class="auth-check"><input type="checkbox" checked> Email me about new arrivals and edits</label></li>
+              <li><label class="auth-check"><input type="checkbox"> SMS for express dispatch updates</label></li>
+              <li><label class="auth-check"><input type="checkbox" checked> Member-only previews</label></li>
+            </ul>
+          </section>
+        </div>
+      </section>
+
+      <section class="account-gate" id="accountGate" hidden>
+        <h1>Sign in to your account</h1>
+        <p>Track orders, save your address, and access member previews.</p>
+        <div class="account-gate__cta">
+          <a href="login.html?next=account.html" class="btn btn--primary"><span>Sign in</span></a>
+          <a href="register.html" class="btn btn--ghost"><span>Create account</span></a>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <div class="footer__brand-mark"><img src="Logo/bnslogoWhitebgchatbot.png" alt="B&amp;S Aesthetics"></div>
+          <div class="footer__wordmark"><span class="footer__wordmark-name">B<i>&amp;</i>S</span><span class="footer__wordmark-tag">Aesthetics</span></div>
+          <p>Curated premium aesthetic products. Crafted in London, shipped worldwide.</p>
+        </div>
+        <div class="footer__cols">
+          <div class="footer__col"><h4>Shop</h4><ul><li><a href="skincare.html">Skincare</a></li><li><a href="makeup.html">Makeup</a></li><li><a href="fragrance.html">Fragrance</a></li><li><a href="dermal-fillers.html">Dermal Fillers</a></li><li><a href="devices.html">Devices</a></li><li><a href="wellness.html">Wellness</a></li></ul></div>
+          <div class="footer__col"><h4>Care</h4><ul><li><a href="#">Contact</a></li><li><a href="#">Delivery</a></li><li><a href="#">Returns</a></li><li><a href="#">FAQs</a></li><li><a href="#">Track order</a></li></ul></div>
+          <div class="footer__col"><h4>House</h4><ul><li><a href="#">Our story</a></li><li><a href="#">Journal</a></li><li><a href="#">Press</a></li><li><a href="#">Sustainability</a></li><li><a href="#">Careers</a></li></ul></div>
+        </div>
+      </div>
+      <div class="footer__bottom"><span>&copy; 2026 B&amp;S Aesthetics. All rights reserved.</span><div class="footer__legal"><a href="#">Privacy</a><a href="#">Terms</a><a href="#">Cookies</a><a href="#">Modern Slavery</a></div></div>
+    </div>
+  </footer>
+
+  <aside class="cart-drawer" id="cartDrawer" aria-hidden="true">
+    <div class="cart-drawer__backdrop" data-cart-close></div>
+    <div class="cart-drawer__panel" role="dialog" aria-label="Shopping bag">
+      <header class="cart-drawer__header"><h3>Your Bag <span class="cart-drawer__count" data-cart-count>0</span></h3><button class="cart-drawer__close" data-cart-close aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M6 6l12 12M6 18 18 6"/></svg></button></header>
+      <div class="cart-drawer__items" id="cartItems"></div>
+      <div class="cart-drawer__empty" id="cartEmpty"><div class="cart-drawer__empty-icon"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1"><path d="M16 22h32l-3 30H19L16 22z"/><path d="M22 22V14a10 10 0 0 1 20 0v8"/></svg></div><h4>Your bag is empty</h4><p>Discover our curated edit and start your collection.</p><button class="btn btn--primary" data-cart-close type="button"><span>Continue shopping</span></button></div>
+      <footer class="cart-drawer__footer" id="cartFooter" hidden><div class="cart-drawer__row"><span>Subtotal</span><strong id="cartSubtotal">&pound;0.00</strong></div><small>Shipping and taxes calculated at checkout.</small><button class="btn btn--primary cart-drawer__checkout" type="button"><span>Checkout</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></footer>
+    </div>
+  </aside>
+
+  <script src="assets/js/cms-content.js"></script>
+  <script src="assets/js/cms-site.js"></script>
+  <script src="assets/js/products.js"></script>
+  <script src="assets/js/cart.js"></script>
+  <script src="assets/js/account-state.js"></script>
+  <script src="assets/js/search.js"></script>
+  <script src="assets/js/nav.js"></script>
+  <script src="assets/js/account.js"></script>
+</body>
+</html>

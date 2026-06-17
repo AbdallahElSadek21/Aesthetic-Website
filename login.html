@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login &mdash; B&amp;S Aesthetics</title>
+  <meta name="description" content="Sign in to your B&amp;S Aesthetics account.">
+  <link rel="icon" type="image/png" href="Logo/bnslogoWhitebgchatbot.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Inter:wght@300;400;500;600;700&family=Pinyon+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <div class="announcement">
+    <div class="announcement__track">
+      <div class="announcement__group">
+        <span>&#10022; Complimentary delivery on orders over &pound;150</span>
+        <span>&#10022; 10% off your first order &mdash; code <b>WELCOME10</b></span>
+        <span>&#10022; New season edit &mdash; discover the latest arrivals</span>
+        <span>&#10022; Same-day London dispatch on orders before 3pm</span>
+      </div>
+      <div class="announcement__group" aria-hidden="true">
+        <span>&#10022; Complimentary delivery on orders over &pound;150</span>
+        <span>&#10022; 10% off your first order &mdash; code <b>WELCOME10</b></span>
+        <span>&#10022; New season edit &mdash; discover the latest arrivals</span>
+        <span>&#10022; Same-day London dispatch on orders before 3pm</span>
+      </div>
+    </div>
+  </div>
+
+  <header class="header" id="header">
+    <div class="header__inner container">
+      <div class="header__left">
+        <button class="header__menu" aria-label="Menu" id="menuToggle"><span></span><span></span></button>
+        <a href="index.html" class="header__brand" aria-label="B&amp;S Aesthetics home">
+          <img src="Logo/bnslogoWhitebgchatbot.png" alt="" class="header__logo" aria-hidden="true">
+          <span class="header__wordmark"><span class="header__wordmark-name">B<i>&amp;</i>S</span><span class="header__wordmark-tag">Aesthetics</span></span>
+        </a>
+        <nav class="header__nav" aria-label="Primary">
+          <ul>
+            <li><a href="dermal-fillers.html?filter=dermal-fillers" class="has-menu">Dermal Fillers<span class="nav-caret" aria-hidden="true"></span></a></li>
+            <li><a href="dermal-fillers.html?filter=fat-dissolvers">Fat Dissolvers</a></li>
+            <li><a href="dermal-fillers.html?filter=skin-boosters" class="has-menu">Skin Boosters<span class="nav-caret" aria-hidden="true"></span></a></li>
+            <li><a href="dermal-fillers.html?filter=under-eye-boosters">Under Eye Boosters</a></li>
+            <li><a href="dermal-fillers.html?filter=exosomes">Exosomes</a></li>
+            <li><a href="dermal-fillers.html?filter=mesotherapy">Mesotherapy</a></li>
+            <li><a href="dermal-fillers.html?filter=chemical-peel">Chemical Peel</a></li>
+            <li><a href="dermal-fillers.html?filter=clinic-consumables" class="has-menu">Clinic Consumables<span class="nav-caret" aria-hidden="true"></span></a></li>
+            <li><a href="index.html#categories" class="has-menu">More<span class="nav-caret" aria-hidden="true"></span></a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header__right">
+        <button aria-label="Search" class="header__action">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+        </button>
+        <a href="login.html" aria-label="Account" class="header__action">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-7 8-7s8 3 8 7"/></svg>
+        </a>
+        <button aria-label="Cart" class="header__action header__cart" data-cart-toggle>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 6h18l-2 12H5L3 6z"/><path d="M8 6V4a4 4 0 0 1 8 0v2"/></svg>
+          <span class="header__cart-count is-empty">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="auth-main">
+    <div class="container">
+      <div class="auth-shell">
+        <section class="auth-visual" data-reveal-card>
+          <img src="assets/images/editorial.jpg" alt="">
+          <div class="auth-visual__copy">
+            <span class="eyebrow eyebrow--light">Private account</span>
+            <h1>Welcome back.</h1>
+            <p>Return to your saved edit, preferred rituals, order history, and early access selections.</p>
+          </div>
+        </section>
+
+        <section class="auth-card" data-reveal-card>
+          <div class="auth-card__head">
+            <span class="eyebrow">Account access</span>
+            <h2>Sign in</h2>
+            <p>Use your email and password to continue into your B&amp;S account.</p>
+          </div>
+          <form class="auth-form" data-auth-form="login">
+            <div class="auth-field">
+              <label for="loginEmail">Email address</label>
+              <input id="loginEmail" type="email" autocomplete="email" placeholder="you@example.com" required>
+            </div>
+            <div class="auth-field">
+              <label for="loginPassword">Password</label>
+              <div class="auth-password">
+                <input id="loginPassword" type="password" autocomplete="current-password" placeholder="Enter password" required>
+                <button type="button" data-password-toggle="loginPassword">Show</button>
+              </div>
+            </div>
+            <div class="auth-options">
+              <label class="auth-check"><input type="checkbox" checked> Remember me</label>
+              <a href="#" class="auth-link">Forgot password?</a>
+            </div>
+            <p class="auth-panel__status" aria-live="polite"></p>
+            <button class="btn btn--primary auth-submit" type="submit"><span>Sign in</span></button>
+            <div class="auth-divider"><span>or</span></div>
+            <div class="auth-social">
+              <button type="button">Google</button>
+              <button type="button">Apple</button>
+            </div>
+            <p class="auth-switch">New to B&amp;S? <a href="register.html" class="auth-link">Create an account</a></p>
+          </form>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <div class="footer__brand-mark"><img src="Logo/bnslogoWhitebgchatbot.png" alt="B&amp;S Aesthetics"></div>
+          <div class="footer__wordmark"><span class="footer__wordmark-name">B<i>&amp;</i>S</span><span class="footer__wordmark-tag">Aesthetics</span></div>
+          <p>Curated premium aesthetic products. Crafted in London, shipped worldwide.</p>
+        </div>
+        <div class="footer__cols">
+          <div class="footer__col"><h4>Shop</h4><ul><li><a href="skincare.html">Skincare</a></li><li><a href="makeup.html">Makeup</a></li><li><a href="fragrance.html">Fragrance</a></li><li><a href="dermal-fillers.html">Dermal Fillers</a></li><li><a href="devices.html">Devices</a></li><li><a href="wellness.html">Wellness</a></li><li><a href="index.html#products">New In</a></li></ul></div>
+          <div class="footer__col"><h4>Care</h4><ul><li><a href="#">Contact</a></li><li><a href="#">Delivery</a></li><li><a href="#">Returns</a></li><li><a href="#">FAQs</a></li><li><a href="#">Track order</a></li></ul></div>
+          <div class="footer__col"><h4>House</h4><ul><li><a href="#">Our story</a></li><li><a href="#">Journal</a></li><li><a href="#">Press</a></li><li><a href="#">Sustainability</a></li><li><a href="#">Careers</a></li></ul></div>
+        </div>
+      </div>
+      <div class="footer__bottom"><span>&copy; 2026 B&amp;S Aesthetics. All rights reserved.</span><div class="footer__legal"><a href="#">Privacy</a><a href="#">Terms</a><a href="#">Cookies</a><a href="#">Modern Slavery</a></div></div>
+    </div>
+  </footer>
+
+  <aside class="cart-drawer" id="cartDrawer" aria-hidden="true">
+    <div class="cart-drawer__backdrop" data-cart-close></div>
+    <div class="cart-drawer__panel" role="dialog" aria-label="Shopping bag">
+      <header class="cart-drawer__header"><h3>Your Bag <span class="cart-drawer__count" data-cart-count>0</span></h3><button class="cart-drawer__close" data-cart-close aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M6 6l12 12M6 18 18 6"/></svg></button></header>
+      <div class="cart-drawer__items" id="cartItems"></div>
+      <div class="cart-drawer__empty" id="cartEmpty"><div class="cart-drawer__empty-icon"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1"><path d="M16 22h32l-3 30H19L16 22z"/><path d="M22 22V14a10 10 0 0 1 20 0v8"/></svg></div><h4>Your bag is empty</h4><p>Discover our curated edit and start your collection.</p><button class="btn btn--primary" data-cart-close type="button"><span>Continue shopping</span></button></div>
+      <footer class="cart-drawer__footer" id="cartFooter" hidden><div class="cart-drawer__row"><span>Subtotal</span><strong id="cartSubtotal">&pound;0.00</strong></div><small>Shipping and taxes calculated at checkout.</small><button class="btn btn--primary cart-drawer__checkout" type="button"><span>Checkout</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></footer>
+    </div>
+  </aside>
+
+  <script src="assets/js/cms-content.js"></script>
+  <script src="assets/js/cms-site.js"></script>
+  <script src="assets/js/products.js"></script>
+  <script src="assets/js/cart.js"></script>
+  <script src="assets/js/account-state.js"></script>
+  <script src="assets/js/search.js"></script>
+  <script src="assets/js/nav.js"></script>
+  <script src="assets/js/auth.js"></script>
+  <script>
+    (function () {
+      const header = document.getElementById('header');
+      const onScroll = () => header && (window.scrollY > 30 ? header.classList.add('is-scrolled') : header.classList.remove('is-scrolled'));
+      window.addEventListener('scroll', onScroll, { passive: true });
+      onScroll();
+      const io = new IntersectionObserver((entries) => {
+        entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('is-revealed'); io.unobserve(e.target); } });
+      }, { threshold: 0.15, rootMargin: '0px 0px -60px 0px' });
+      document.querySelectorAll('[data-reveal], [data-reveal-card], [data-reveal-text]').forEach(el => io.observe(el));
+    })();
+  </script>
+</body>
+</html>

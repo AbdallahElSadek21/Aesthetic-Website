@@ -1,0 +1,187 @@
+window.BS_CMS_CONTENT = {
+  "cmsNote": "Important: whenever a new section, dropdown, product field, banner, or content block is added to the main website, add its matching editable field in this CMS too. The website and CMS must stay paired.",
+  "announcement": {
+    "messages": [
+      "Complimentary delivery on orders over \u00a3150",
+      "10% off your first order - code WELCOME10",
+      "New season edit - discover the latest arrivals",
+      "Same-day London dispatch on orders before 3pm"
+    ]
+  },
+  "navigation": {
+    "items": [
+      {
+        "label": "Dermal Fillers",
+        "href": "dermal-fillers.html?filter=dermal-fillers",
+        "dropdown": [
+          {
+            "label": "Regenovue",
+            "href": "dermal-fillers.html?filter=dermal-fillers&brand=regenovue"
+          },
+          {
+            "label": "Lumifil",
+            "href": "dermal-fillers.html?filter=dermal-fillers&brand=lumifil"
+          },
+          {
+            "label": "Volifil",
+            "href": "dermal-fillers.html?filter=dermal-fillers&brand=volifil"
+          },
+          {
+            "label": "Aessoa",
+            "href": "dermal-fillers.html?filter=dermal-fillers&brand=aessoa"
+          },
+          {
+            "label": "Kairax",
+            "href": "dermal-fillers.html?filter=dermal-fillers&brand=kairax"
+          },
+          {
+            "label": "EPTQ",
+            "href": "dermal-fillers.html?filter=dermal-fillers&brand=eptq"
+          },
+          {
+            "label": "View all brands",
+            "href": "dermal-fillers.html?filter=dermal-fillers"
+          }
+        ]
+      },
+      {
+        "label": "Fat Dissolvers",
+        "href": "dermal-fillers.html?filter=fat-dissolvers",
+        "dropdown": []
+      },
+      {
+        "label": "Skin Boosters",
+        "href": "dermal-fillers.html?filter=skin-boosters",
+        "dropdown": [
+          {
+            "label": "Hyaluronic Acid Skin Boosters",
+            "href": "dermal-fillers.html?filter=skin-boosters&type=hyaluronic-acid"
+          },
+          {
+            "label": "Polynucleotide Skin Boosters",
+            "href": "dermal-fillers.html?filter=skin-boosters&type=polynucleotide"
+          },
+          {
+            "label": "PLLA",
+            "href": "dermal-fillers.html?filter=plla"
+          }
+        ]
+      },
+      {
+        "label": "Under Eye Boosters",
+        "href": "dermal-fillers.html?filter=under-eye-boosters",
+        "dropdown": []
+      },
+      {
+        "label": "Exosomes",
+        "href": "dermal-fillers.html?filter=exosomes",
+        "dropdown": []
+      },
+      {
+        "label": "Mesotherapy",
+        "href": "dermal-fillers.html?filter=mesotherapy",
+        "dropdown": []
+      },
+      {
+        "label": "Chemical Peel",
+        "href": "dermal-fillers.html?filter=chemical-peel",
+        "dropdown": []
+      },
+      {
+        "label": "Clinic Consumables",
+        "href": "dermal-fillers.html?filter=clinic-consumables",
+        "dropdown": [
+          {
+            "label": "Cannulas",
+            "href": "dermal-fillers.html?filter=clinic-consumables&type=cannulas"
+          },
+          {
+            "label": "Gloves",
+            "href": "dermal-fillers.html?filter=clinic-consumables&type=gloves"
+          },
+          {
+            "label": "Needles and Syringes",
+            "href": "dermal-fillers.html?filter=clinic-consumables&type=needles-syringes"
+          }
+        ]
+      },
+      {
+        "label": "More",
+        "href": "index.html#categories",
+        "dropdown": []
+      }
+    ]
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Curated for those who demand more",
+      "titleLines": [
+        "The Quiet",
+        "Luxury of",
+        "Modern Beauty"
+      ],
+      "subtitle": "Premium skincare, makeup, fragrance, and devices - selected for those who refuse to compromise.",
+      "primaryCta": {
+        "label": "Shop",
+        "href": "#categories"
+      },
+      "secondaryCta": {
+        "label": "Explore Bestsellers",
+        "href": "#products"
+      },
+      "slides": [
+        {
+          "image": "assets/images/hero-01.jpg",
+          "alt": ""
+        },
+        {
+          "image": "assets/images/hero-02.jpg",
+          "alt": ""
+        },
+        {
+          "image": "assets/images/hero-03.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    "categories": [
+      {
+        "title": "Skincare",
+        "description": "Serums, moisturizers, masks",
+        "href": "skincare.html",
+        "image": "assets/images/cat-skincare.jpg"
+      },
+      {
+        "title": "Makeup",
+        "description": "Lips, eyes, complexion",
+        "href": "makeup.html",
+        "image": "assets/images/cat-makeup.jpg"
+      },
+      {
+        "title": "Fragrance",
+        "description": "Eaux de parfum, candles",
+        "href": "fragrance.html",
+        "image": "assets/images/cat-fragrance.jpg"
+      },
+      {
+        "title": "Dermal Fillers",
+        "description": "Hyaluronic & advanced formulas",
+        "href": "dermal-fillers.html",
+        "image": "assets/images/cat-dermal.jpg"
+      },
+      {
+        "title": "Devices",
+        "description": "LED, microcurrent, ultrasonic",
+        "href": "devices.html",
+        "image": "assets/images/cat-devices.jpg"
+      },
+      {
+        "title": "Wellness",
+        "description": "Supplements & beauty from within",
+        "href": "wellness.html",
+        "image": "assets/images/cat-wellness.jpg"
+      }
+    ]
+  },
+  "updatedAt": "2026-05-08T10:58:23.498Z"
+};

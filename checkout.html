@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout &mdash; B&amp;S Aesthetics</title>
+  <meta name="description" content="Secure checkout at B&amp;S Aesthetics.">
+  <link rel="icon" type="image/png" href="Logo/bnslogoWhitebgchatbot.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Inter:wght@300;400;500;600;700&family=Pinyon+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+  <div class="announcement">
+    <div class="announcement__track">
+      <div class="announcement__group">
+        <span>&#10022; Complimentary delivery on orders over &pound;150</span>
+        <span>&#10022; 10% off your first order &mdash; code <b>WELCOME10</b></span>
+        <span>&#10022; Same-day London dispatch on orders before 3pm</span>
+      </div>
+      <div class="announcement__group" aria-hidden="true">
+        <span>&#10022; Complimentary delivery on orders over &pound;150</span>
+        <span>&#10022; 10% off your first order &mdash; code <b>WELCOME10</b></span>
+        <span>&#10022; Same-day London dispatch on orders before 3pm</span>
+      </div>
+    </div>
+  </div>
+
+  <header class="header header--minimal" id="header">
+    <div class="header__inner container">
+      <div class="header__left">
+        <a href="index.html" class="header__brand" aria-label="B&amp;S Aesthetics home">
+          <img src="Logo/bnslogoWhitebgchatbot.png" alt="" class="header__logo" aria-hidden="true">
+          <span class="header__wordmark">
+            <span class="header__wordmark-name">B<i>&amp;</i>S</span>
+            <span class="header__wordmark-tag">Aesthetics</span>
+          </span>
+        </a>
+      </div>
+      <div class="header__right">
+        <span class="checkout-secure">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>
+          Secure checkout
+        </span>
+      </div>
+    </div>
+  </header>
+
+  <main class="checkout-main">
+    <div class="container">
+      <nav class="checkout-steps" aria-label="Checkout progress">
+        <a href="index.html">Bag</a>
+        <span aria-hidden="true">&rsaquo;</span>
+        <span aria-current="step">Checkout</span>
+        <span aria-hidden="true">&rsaquo;</span>
+        <span class="is-future">Confirmation</span>
+      </nav>
+
+      <div class="checkout-shell">
+        <section class="checkout-form" aria-label="Checkout form">
+          <form id="checkoutForm" novalidate>
+            <fieldset class="checkout-fieldset">
+              <legend>
+                <span class="eyebrow">Step 01</span>
+                <h2>Contact</h2>
+              </legend>
+              <div class="checkout-grid">
+                <div class="auth-field">
+                  <label for="ckEmail">Email address</label>
+                  <input id="ckEmail" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+                </div>
+                <div class="auth-field">
+                  <label for="ckPhone">Phone</label>
+                  <input id="ckPhone" name="phone" type="tel" autocomplete="tel" placeholder="07700 900000">
+                </div>
+              </div>
+              <label class="auth-check checkout-check"><input type="checkbox" id="ckMarketing" name="marketing" checked> Email me about new arrivals and edits.</label>
+            </fieldset>
+
+            <fieldset class="checkout-fieldset">
+              <legend>
+                <span class="eyebrow">Step 02</span>
+                <h2>Shipping</h2>
+              </legend>
+              <div class="checkout-grid checkout-grid--two">
+                <div class="auth-field">
+                  <label for="ckFirst">First name</label>
+                  <input id="ckFirst" name="firstName" type="text" autocomplete="given-name" required>
+                </div>
+                <div class="auth-field">
+                  <label for="ckLast">Last name</label>
+                  <input id="ckLast" name="lastName" type="text" autocomplete="family-name" required>
+                </div>
+              </div>
+              <div class="auth-field">
+                <label for="ckAddr">Address</label>
+                <input id="ckAddr" name="address" type="text" autocomplete="address-line1" placeholder="Number and street" required>
+              </div>
+              <div class="auth-field">
+                <label for="ckAddr2">Apartment, suite, etc. <span class="auth-field__optional">(optional)</span></label>
+                <input id="ckAddr2" name="address2" type="text" autocomplete="address-line2">
+              </div>
+              <div class="checkout-grid checkout-grid--three">
+                <div class="auth-field">
+                  <label for="ckCity">City</label>
+                  <input id="ckCity" name="city" type="text" autocomplete="address-level2" required>
+                </div>
+                <div class="auth-field">
+                  <label for="ckPost">Postcode</label>
+                  <input id="ckPost" name="postcode" type="text" autocomplete="postal-code" required>
+                </div>
+                <div class="auth-field">
+                  <label for="ckCountry">Country</label>
+                  <select id="ckCountry" name="country" required>
+                    <option value="GB">United Kingdom</option>
+                    <option value="IE">Ireland</option>
+                    <option value="FR">France</option>
+                    <option value="DE">Germany</option>
+                    <option value="IT">Italy</option>
+                    <option value="ES">Spain</option>
+                    <option value="NL">Netherlands</option>
+                    <option value="US">United States</option>
+                    <option value="AE">United Arab Emirates</option>
+                    <option value="OTHER">Other</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="checkout-shipping" role="radiogroup" aria-label="Delivery method">
+                <label class="checkout-shipping__option">
+                  <input type="radio" name="shipping" value="standard" checked>
+                  <span class="checkout-shipping__copy">
+                    <strong>Standard delivery</strong>
+                    <small>2&ndash;4 working days</small>
+                  </span>
+                  <span class="checkout-shipping__price" data-shipping-standard>&pound;5.95</span>
+                </label>
+                <label class="checkout-shipping__option">
+                  <input type="radio" name="shipping" value="express">
+                  <span class="checkout-shipping__copy">
+                    <strong>Express delivery</strong>
+                    <small>Next working day &mdash; order before 3pm</small>
+                  </span>
+                  <span class="checkout-shipping__price">&pound;12.00</span>
+                </label>
+                <label class="checkout-shipping__option">
+                  <input type="radio" name="shipping" value="collection">
+                  <span class="checkout-shipping__copy">
+                    <strong>Collection &mdash; London W1</strong>
+                    <small>Ready in 2 hours</small>
+                  </span>
+                  <span class="checkout-shipping__price">Free</span>
+                </label>
+              </div>
+            </fieldset>
+
+            <fieldset class="checkout-fieldset">
+              <legend>
+                <span class="eyebrow">Step 03</span>
+                <h2>Payment</h2>
+              </legend>
+              <div class="auth-field">
+                <label for="ckCard">Card number</label>
+                <input id="ckCard" name="card" type="text" inputmode="numeric" autocomplete="cc-number" placeholder="4242 4242 4242 4242" required>
+              </div>
+              <div class="checkout-grid checkout-grid--two">
+                <div class="auth-field">
+                  <label for="ckExp">Expiry</label>
+                  <input id="ckExp" name="expiry" type="text" autocomplete="cc-exp" placeholder="MM / YY" required>
+                </div>
+                <div class="auth-field">
+                  <label for="ckCvc">CVC</label>
+                  <input id="ckCvc" name="cvc" type="text" inputmode="numeric" autocomplete="cc-csc" placeholder="123" required>
+                </div>
+              </div>
+              <div class="auth-field">
+                <label for="ckCardName">Name on card</label>
+                <input id="ckCardName" name="cardName" type="text" autocomplete="cc-name" required>
+              </div>
+            </fieldset>
+
+            <p class="auth-panel__status" id="ckStatus" aria-live="polite"></p>
+            <button class="btn btn--primary checkout-submit" type="submit"><span>Place order</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </button>
+            <p class="checkout-fineprint">By placing your order you agree to our <a href="#" class="auth-link">Terms</a> and <a href="#" class="auth-link">Privacy Notice</a>.</p>
+          </form>
+        </section>
+
+        <aside class="checkout-summary" aria-label="Order summary">
+          <div class="checkout-summary__sticky">
+            <header class="checkout-summary__head">
+              <h3>Your order</h3>
+              <a href="index.html" class="auth-link">Edit bag</a>
+            </header>
+
+            <div class="checkout-summary__items" id="checkoutItems"></div>
+
+            <div class="checkout-summary__empty" id="checkoutEmpty" hidden>
+              <p>Your bag is empty.</p>
+              <a href="index.html" class="btn btn--ghost"><span>Continue shopping</span></a>
+            </div>
+
+            <div class="checkout-summary__promo">
+              <input type="text" placeholder="Discount code" id="ckPromo" autocomplete="off">
+              <button type="button" id="ckPromoApply">Apply</button>
+            </div>
+
+            <div class="checkout-summary__totals" id="checkoutTotals">
+              <div class="checkout-summary__row"><span>Subtotal</span><strong id="ckSub">&pound;0.00</strong></div>
+              <div class="checkout-summary__row" id="ckDiscountRow" hidden><span>Discount</span><strong id="ckDiscount">&minus;&pound;0.00</strong></div>
+              <div class="checkout-summary__row"><span>Shipping</span><strong id="ckShip">&pound;5.95</strong></div>
+              <div class="checkout-summary__row"><span>VAT included</span><strong id="ckVat">&pound;0.00</strong></div>
+              <div class="checkout-summary__row checkout-summary__row--total"><span>Total</span><strong id="ckTotal">&pound;0.00</strong></div>
+            </div>
+
+            <ul class="checkout-summary__perks">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 12l4 4L21 6"/></svg> Complimentary samples with every order</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M4 7h16M4 12h16M4 17h10"/></svg> 30-day returns</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg> Same-day dispatch before 3pm</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer footer--minimal">
+    <div class="container">
+      <div class="footer__bottom">
+        <span>&copy; 2026 B&amp;S Aesthetics. All rights reserved.</span>
+              </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/cms-content.js"></script>
+  <script src="assets/js/cms-site.js"></script>
+  <script src="assets/js/products.js"></script>
+  <script src="assets/js/account-state.js"></script>
+  <script src="assets/js/checkout.js"></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>B&amp;S Aesthetics CMS</title>
+  <link rel="icon" type="image/png" href="Logo/bnslogoWhitebgchatbot.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Cormorant+Garamond:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/cms.css">
+</head>
+<body>
+  <main class="login" id="loginView" hidden>
+    <form class="login__panel" id="loginForm">
+      <img src="Logo/bnslogoWhitebgchatbot.png" alt="B&amp;S Aesthetics">
+      <h1>Content Management</h1>
+      <p>Sign in to edit website content, products, menus, and homepage sections.</p>
+      <label>
+        Admin password
+        <input type="password" id="passwordInput" autocomplete="current-password" required>
+      </label>
+      <button type="submit">Sign in</button>
+      <small>Your local CMS password is stored in <strong>CMS-PASSWORD.txt</strong>.</small>
+      <div class="status status--error" id="loginStatus" hidden></div>
+    </form>
+  </main>
+
+  <main class="cms" id="appView" hidden>
+    <aside class="sidebar">
+      <a class="brand" href="index.html" target="_blank" rel="noreferrer">
+        <img src="Logo/bnslogoWhitebgchatbot.png" alt="">
+        <span>B&amp;S CMS</span>
+      </a>
+      <nav class="tabs" aria-label="CMS sections">
+        <button class="is-active" data-tab="dashboard">Dashboard</button>
+        <button data-tab="home">Home</button>
+        <button data-tab="navigation">Top Bar</button>
+        <button data-tab="footer">Footer</button>
+        <button data-tab="pages">Pages</button>
+        <button data-tab="site">Site</button>
+        <button data-tab="products">Products</button>
+        <button data-tab="backups">Backups</button>
+        <button data-tab="guide">Guide</button>
+      </nav>
+      <div class="sidebar__footer">
+        <a href="index.html" target="_blank" rel="noreferrer">Open website</a>
+        <button type="button" id="logoutBtn">Sign out</button>
+      </div>
+    </aside>
+
+    <section class="workspace">
+      <header class="topbar">
+        <div>
+          <span class="eyebrow">B&amp;S Aesthetics</span>
+          <h1 id="sectionTitle">Dashboard</h1>
+        </div>
+        <div class="topbar__actions">
+          <span id="lastSaved">Not saved yet</span>
+          <button type="button" class="btn btn--ghost" id="reloadBtn">Reload</button>
+          <button type="button" class="btn btn--ghost" id="loadDraftBtn">Load draft</button>
+          <button type="button" class="btn btn--ghost" id="previewBtn">Preview</button>
+          <button type="button" class="btn btn--muted" id="draftBtn">Save draft</button>
+          <button type="button" class="btn" id="saveBtn">Publish live</button>
+        </div>
+      </header>
+
+      <div class="notice">
+        <strong>Website/CMS rule:</strong>
+        <span id="globalNote">Whenever we add something to the main website, the matching controls must also be added here in the CMS.</span>
+      </div>
+
+      <div class="status" id="status" hidden></div>
+      <section id="panel"></section>
+    </section>
+  </main>
+
+  <div class="toast-stack" id="toastStack" aria-live="polite"></div>
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal__backdrop" data-modal-close></div>
+    <div class="modal__panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <header class="modal__head">
+        <h3 id="modalTitle">Modal</h3>
+        <button type="button" class="modal__close" data-modal-close aria-label="Close">×</button>
+      </header>
+      <div class="modal__body" id="modalBody"></div>
+      <footer class="modal__foot" id="modalFoot" hidden></footer>
+    </div>
+  </div>
+
+  <script src="assets/js/cms-admin.js"></script>
+</body>
+</html>

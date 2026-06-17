@@ -1,0 +1,51 @@
+Priority,Phase,Category,Item,Department,Source,Status,Notes
+1,Launch blocker,Products,Top 20 SKU clinical specs (brand / name / active ingredient / concentration / lidocaine / volume / pack size / storage / indication / contraindications / MHRA status / shelf life),Procurement,From manufacturer data sheets we already hold,Not started,Biggest single content lift. Extract from supplier portals into the master sheet.
+2,Launch blocker,Products,Top 20 SKU images (3-5 per product: pack front / carton / syringe-vial / texture / lifestyle),Marketing,Manufacturer pack shots first; supplement with in-house photography where missing,Not started,Named: sku-front.jpg / sku-carton.jpg / sku-syringe.jpg.
+3,Launch blocker,Products,Top 20 SKU trade pricing (ex-VAT base + tiered: 1x / 5x / 10x bands),Sales,Pricing matrix from Finance approval,Not started,Drives the trade-pricing logic.
+4,Launch blocker,Products,Top 20 SKU IFU PDFs,Procurement,Bundled with each product shipment from manufacturer,Not started,Upload to /assets/uploads named BRAND_PRODUCT_IFU.pdf
+5,Launch blocker,Products,Top 20 SKU live stock + batch + expiry feed,Operations,Warehouse management system,Not started,Either CSV import or stock sync once a day.
+6,Launch blocker,Legal,Trade Terms and Conditions,Compliance,Drafted in-house (Compliance + Legal review),Not started,Includes prescription declaration and indemnity clauses.
+7,Launch blocker,Legal,Privacy Notice (GDPR),Compliance,Drafted in-house,Not started,Standard GDPR plus cookie and data-processing detail.
+8,Launch blocker,Legal,Cookie Policy,Compliance,Drafted in-house,Not started,Match the actual cookies the site sets.
+9,Launch blocker,Compliance,Healthcare-professional declaration wording (registration checkbox + cart gate for POM),Compliance,Drafted in-house,Not started,Exact wording needed for legal compliance.
+10,Launch blocker,Compliance,Trade account registration field list (profession / regulatory body / PIN / practice / VAT),Compliance,Drafted in-house,Not started,Confirms what we collect on signup.
+11,Launch blocker,Pages,Contact page (address / phone / WhatsApp / email / hours / response promise),Customer Care,Internal,Not started,Currently a # stub. Confirm channels we publicly support.
+12,Launch blocker,Pages,Delivery & Cold Chain page (methods / cutoffs / cold-chain days / international policy),Operations,Internal,Not started,Critical for clinic trust.
+13,Launch blocker,Pages,Returns & Recalls page (window / process / refund timeline / live recall list),"Operations + Compliance",Internal,Not started,Required by trade buyers.
+14,Launch blocker,Pages,FAQs (15+ Q&As: verification / payment terms / cold chain / batch traceability),Customer Care,Internal,Not started,Reduces support load before launch.
+15,Launch blocker,Operations,Shipping methods table (key / label / sublabel / price ex-VAT / ETA / cold-chain flag),Operations,Internal,Not started,Goes straight into CMS > Pages > Checkout.
+16,Launch blocker,Operations,VAT rate + free-shipping threshold confirmation,Finance,Internal,Not started,Currently 20% / £150 inc-VAT. Confirm.
+17,Pre-launch,Homepage,"Hero copy (eyebrow / title lines / subtitle / two CTA labels) + 3 hero images",Marketing,Internal,Not started,Replace consumer editorial copy with trade tone.
+18,Pre-launch,Homepage,"Six category cards (title / 1-line description / image / link)",Marketing,Internal,Not started,Drop Skincare/Makeup/Fragrance if not in our product mix. Replace with clinical categories we stock.
+19,Pre-launch,Homepage,Announcement bar messages (3-4 trade-tone lines),Marketing,Internal,Not started,Replace WELCOME10 consumer copy.
+20,Pre-launch,Navigation,Confirmed top-bar categories + sub-menu items + featured brands per category,Sales,Internal,Not started,Featured brands per category come from our stock list.
+21,Pre-launch,Footer,Shop / Care / House / Legal link lists + destination URLs,Marketing,Internal,Not started,Drives the footer link rows.
+22,Pre-launch,Footer,Social URLs (Instagram / LinkedIn / other),Marketing,Internal,Not started,Real https URLs only.
+23,Pre-launch,Footer,Footer tagline + copyright line,Marketing,Internal,Not started,One sentence each.
+24,Pre-launch,Pages,About B&S page (founding story / team / regulatory standing / scale),Marketing,Internal,Not started,Trust-builder.
+25,Pre-launch,Pages,Our Supply Chain page (authorised distributor relationships / authenticity / MHRA wholesaler licence / parallel-import policy),Compliance,Internal,Not started,Major trust-builder for clinics. This is our differentiator.
+26,Pre-launch,Pages,Compliance & MHRA page (licence numbers / GDP / complaint reporting),Compliance,Internal,Not started,Required regulatory signal.
+27,Pre-launch,Pages,Modern Slavery Statement,Compliance,Internal,Not started,Required for UK businesses above the threshold.
+28,Pre-launch,Pages,Acceptable Use Policy,Compliance,Internal,Not started,Limits on who can register.
+29,Pre-launch,Trade,Net-30 / credit-terms application copy (eligibility / form / approval email),"Sales + Finance",Internal,Not started,Enables trade payment flow.
+30,Pre-launch,Trade,Account manager contact details (name / email / phone / WhatsApp / optional photo),Sales,Internal,Not started,Shown to verified clinics.
+31,Pre-launch,Trade,Authenticity statement (80-word PDP strip),Compliance,Internal,Not started,Reused on every product page.
+32,Pre-launch,Categories,Six category page intros (eyebrow + 1-2 sentence intro + optional hero image),Marketing,Internal,Not started,Currently the "edit" placeholder.
+33,Pre-launch,Search,Search placeholder + 6-8 popular-search chips + no-results copy,Marketing,Internal,Not started,Small content but high-visibility.
+34,Pre-launch,Search,Filter taxonomy (concern / treatment area / brand / pack size / price band) per category,"Sales + Procurement",Internal,Not started,Powers the PDP filtering.
+35,Pre-launch,Emails,8 transactional email templates (verification / welcome / approval / order / dispatch / backorder / forgot-pw / newsletter) — subject + body,"Marketing + Customer Care",Internal,Not started,Plain-text body + merge variables.
+36,Pre-launch,Account,Account dashboard tab labels + sign-in gate copy + preferences toggle labels,Marketing,Internal,Not started,All CMS-editable.
+37,Pre-launch,Checkout,Checkout perks (3 lines) + place-order fineprint + payment method confirmation,"Marketing + Compliance",Internal,Not started,Goes into CMS > Pages > Checkout.
+38,Pre-launch,Promotions,Promo codes table (code / discount % / start-end / eligibility),Sales,Internal,Not started,Replace the 3 demo codes.
+39,Pre-launch,Order confirmation,Confirmation page + email copy (title / subtitle / button labels / ETA wording),Marketing,Internal,Not started,Goes into CMS > Pages > Order confirmation.
+40,Post-launch,Products,Remainder of catalogue (SKUs 21 to ~84) — same fields as Priority 1,Procurement,From manufacturer data sheets,Not started,Roll out by category once flow is proven on the first 20.
+41,Post-launch,Products,Remainder of product imagery,Marketing,Manufacturer pack shots + in-house,Not started,Same standard as Priority 2.
+42,Post-launch,Pages,Press page + downloadable brand assets,Marketing,Internal,Not started,Not critical at launch.
+43,Post-launch,Pages,CPD & training calendar (date / brand / topic / host / location / registration link),"Procurement + Sales",From manufacturer training programmes,Not started,Updates monthly.
+44,Post-launch,Pages,Track Order page copy + lookup workflow,Operations,Internal,Not started,Needs dev work plus content.
+45,Post-launch,Trade,IFU library landing page (filter by brand / category),Procurement,Internal aggregation of per-SKU IFUs,Not started,Aggregates all per-product IFUs.
+46,Post-launch,Trade,Recall log page,Compliance,Internal,Not started,Required as soon as the first recall occurs.
+47,Post-launch,SEO,Meta title + meta description per page (≤60 / ≤160 chars),Marketing,Internal,Not started,Per-page CMS field.
+48,Post-launch,SEO,Product meta + Open Graph image override,Marketing,Internal,Not started,Per-SKU.
+49,Post-launch,Reviews,Clinician review collection workflow + first 20 seeded reviews,"Customer Care + Sales",Outreach to early clinic customers,Not started,Big trust lift if seeded properly.
+50,Post-launch,Reviews,Backend for reviews (display on PDP),Digital,Dev work,Not started,Needs schema + moderation flow added to CMS.

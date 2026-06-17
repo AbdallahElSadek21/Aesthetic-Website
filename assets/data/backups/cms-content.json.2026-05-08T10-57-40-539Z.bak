@@ -1,0 +1,1423 @@
+{
+  "version": 1,
+  "updatedAt": "2026-05-08T10:33:47.538Z",
+  "cmsNote": "Important: whenever a new section, dropdown, product field, banner, or content block is added to the main website, add its matching editable field in this CMS too. The website and CMS must stay paired.",
+  "announcement": {
+    "messages": [
+      "Complimentary delivery on orders over £150",
+      "10% off your first order - code WELCOME10",
+      "New season edit - discover the latest arrivals",
+      "Same-day London dispatch on orders before 3pm"
+    ]
+  },
+  "navigation": {
+    "items": [
+      {
+        "label": "Dermal Fillers",
+        "href": "dermal-fillers.html?filter=dermal-fillers",
+        "dropdown": [
+          {
+            "label": "Regenovue",
+            "href": "dermal-fillers.html?filter=dermal-fillers&brand=regenovue"
+          },
+          {
+            "label": "Lumifil",
+            "href": "dermal-fillers.html?filter=dermal-fillers&brand=lumifil"
+          },
+          {
+            "label": "Volifil",
+            "href": "dermal-fillers.html?filter=dermal-fillers&brand=volifil"
+          },
+          {
+            "label": "Aessoa",
+            "href": "dermal-fillers.html?filter=dermal-fillers&brand=aessoa"
+          },
+          {
+            "label": "Kairax",
+            "href": "dermal-fillers.html?filter=dermal-fillers&brand=kairax"
+          },
+          {
+            "label": "EPTQ",
+            "href": "dermal-fillers.html?filter=dermal-fillers&brand=eptq"
+          },
+          {
+            "label": "View all brands",
+            "href": "dermal-fillers.html?filter=dermal-fillers"
+          }
+        ]
+      },
+      {
+        "label": "Fat Dissolvers",
+        "href": "dermal-fillers.html?filter=fat-dissolvers",
+        "dropdown": []
+      },
+      {
+        "label": "Skin Boosters",
+        "href": "dermal-fillers.html?filter=skin-boosters",
+        "dropdown": [
+          {
+            "label": "Hyaluronic Acid Skin Boosters",
+            "href": "dermal-fillers.html?filter=skin-boosters&type=hyaluronic-acid"
+          },
+          {
+            "label": "Polynucleotide Skin Boosters",
+            "href": "dermal-fillers.html?filter=skin-boosters&type=polynucleotide"
+          },
+          {
+            "label": "PLLA",
+            "href": "dermal-fillers.html?filter=plla"
+          }
+        ]
+      },
+      {
+        "label": "Under Eye Boosters",
+        "href": "dermal-fillers.html?filter=under-eye-boosters",
+        "dropdown": []
+      },
+      {
+        "label": "Exosomes",
+        "href": "dermal-fillers.html?filter=exosomes",
+        "dropdown": []
+      },
+      {
+        "label": "Mesotherapy",
+        "href": "dermal-fillers.html?filter=mesotherapy",
+        "dropdown": []
+      },
+      {
+        "label": "Chemical Peel",
+        "href": "dermal-fillers.html?filter=chemical-peel",
+        "dropdown": []
+      },
+      {
+        "label": "PLLA",
+        "href": "dermal-fillers.html?filter=plla",
+        "dropdown": []
+      },
+      {
+        "label": "Clinic Consumables",
+        "href": "dermal-fillers.html?filter=clinic-consumables",
+        "dropdown": [
+          {
+            "label": "Cannulas",
+            "href": "dermal-fillers.html?filter=clinic-consumables&type=cannulas"
+          },
+          {
+            "label": "Gloves",
+            "href": "dermal-fillers.html?filter=clinic-consumables&type=gloves"
+          },
+          {
+            "label": "Needles and Syringes",
+            "href": "dermal-fillers.html?filter=clinic-consumables&type=needles-syringes"
+          }
+        ]
+      },
+      {
+        "label": "More",
+        "href": "index.html#categories",
+        "dropdown": []
+      }
+    ]
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Curated for those who demand more",
+      "titleLines": [
+        "The Quiet",
+        "Luxury of",
+        "Modern Beauty"
+      ],
+      "subtitle": "Premium skincare, makeup, fragrance, and devices - selected for those who refuse to compromise.",
+      "primaryCta": {
+        "label": "Shop the Edit",
+        "href": "#categories"
+      },
+      "secondaryCta": {
+        "label": "Explore Bestsellers",
+        "href": "#products"
+      },
+      "slides": [
+        {
+          "image": "assets/images/hero-01.jpg",
+          "alt": ""
+        },
+        {
+          "image": "assets/images/hero-02.jpg",
+          "alt": ""
+        },
+        {
+          "image": "assets/images/hero-03.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    "categories": [
+      {
+        "title": "Skincare",
+        "description": "Serums, moisturizers, masks",
+        "href": "skincare.html",
+        "image": "assets/images/cat-skincare.jpg"
+      },
+      {
+        "title": "Makeup",
+        "description": "Lips, eyes, complexion",
+        "href": "makeup.html",
+        "image": "assets/images/cat-makeup.jpg"
+      },
+      {
+        "title": "Fragrance",
+        "description": "Eaux de parfum, candles",
+        "href": "fragrance.html",
+        "image": "assets/images/cat-fragrance.jpg"
+      },
+      {
+        "title": "Dermal Fillers",
+        "description": "Hyaluronic & advanced formulas",
+        "href": "dermal-fillers.html",
+        "image": "assets/images/cat-dermal.jpg"
+      },
+      {
+        "title": "Devices",
+        "description": "LED, microcurrent, ultrasonic",
+        "href": "devices.html",
+        "image": "assets/images/cat-devices.jpg"
+      },
+      {
+        "title": "Wellness",
+        "description": "Supplements & beauty from within",
+        "href": "wellness.html",
+        "image": "assets/images/cat-wellness.jpg"
+      }
+    ]
+  },
+  "products": [
+    {
+      "id": "sk-creme-regen",
+      "cat": "skincare",
+      "sub": "moisturizer",
+      "brand": "B&S Apothecary",
+      "name": "Regenerante Creme",
+      "size": "50ml",
+      "price": 180,
+      "rating": 4.9,
+      "image": "assets/images/cat-skincare.jpg",
+      "alt": "assets/images/product-dropper.jpg",
+      "tags": [
+        "bestseller",
+        "popular"
+      ]
+    },
+    {
+      "id": "sk-serum-c",
+      "cat": "skincare",
+      "sub": "serum",
+      "brand": "Lumiere",
+      "name": "Lumiere Serum C 15%",
+      "size": "30ml",
+      "price": 85,
+      "rating": 4.8,
+      "image": "assets/images/product-dropper.jpg",
+      "alt": "assets/images/editorial.jpg",
+      "tags": [
+        "bestseller"
+      ]
+    },
+    {
+      "id": "sk-cleanse-oil",
+      "cat": "skincare",
+      "sub": "cleanser",
+      "brand": "B&S Apothecary",
+      "name": "Pure Ritual Cleansing Oil",
+      "size": "150ml",
+      "price": 58,
+      "rating": 4.7,
+      "image": "assets/images/product-dropper.jpg",
+      "alt": "assets/images/cat-skincare.jpg",
+      "tags": [
+        "new"
+      ]
+    },
+    {
+      "id": "sk-eye-chronos",
+      "cat": "skincare",
+      "sub": "eye",
+      "brand": "Chronos",
+      "name": "Chronos Eye Concentrate",
+      "size": "15ml",
+      "price": 95,
+      "rating": 4.6,
+      "image": "assets/images/editorial.jpg",
+      "alt": "assets/images/cat-skincare.jpg",
+      "tags": [
+        "new"
+      ]
+    },
+    {
+      "id": "sk-niacin",
+      "cat": "skincare",
+      "sub": "serum",
+      "brand": "B&S Apothecary",
+      "name": "Niacinamide 10% Serum",
+      "size": "30ml",
+      "price": 38,
+      "rating": 4.8,
+      "image": "assets/images/product-dropper.jpg",
+      "alt": "assets/images/editorial.jpg",
+      "tags": [
+        "trending"
+      ]
+    },
+    {
+      "id": "sk-rose-tonic",
+      "cat": "skincare",
+      "sub": "toner",
+      "brand": "B&S Apothecary",
+      "name": "Rose Water Tonic",
+      "size": "200ml",
+      "price": 32,
+      "rating": 4.5,
+      "image": "assets/images/cat-skincare.jpg",
+      "alt": "assets/images/product-dropper.jpg",
+      "tags": []
+    },
+    {
+      "id": "sk-mask-hydra",
+      "cat": "skincare",
+      "sub": "mask",
+      "brand": "Lumiere",
+      "name": "Hydra Plump Mask Set",
+      "size": "5 x 25ml",
+      "price": 48,
+      "oldPrice": 60,
+      "rating": 4.7,
+      "image": "assets/images/editorial.jpg",
+      "alt": "assets/images/cat-skincare.jpg",
+      "tags": [
+        "trending",
+        "sale"
+      ]
+    },
+    {
+      "id": "sk-retinol",
+      "cat": "skincare",
+      "sub": "treatment",
+      "brand": "Chronos",
+      "name": "Retinol 0.5 Night Treatment",
+      "size": "30ml",
+      "price": 98,
+      "rating": 4.6,
+      "image": "assets/images/product-dropper.jpg",
+      "alt": "assets/images/editorial.jpg",
+      "tags": []
+    },
+    {
+      "id": "sk-bakuchiol",
+      "cat": "skincare",
+      "sub": "treatment",
+      "brand": "B&S Apothecary",
+      "name": "Bakuchiol Restorative Oil",
+      "size": "30ml",
+      "price": 72,
+      "rating": 4.5,
+      "image": "assets/images/product-dropper.jpg",
+      "alt": "assets/images/cat-skincare.jpg",
+      "tags": []
+    },
+    {
+      "id": "sk-spf-50",
+      "cat": "skincare",
+      "sub": "spf",
+      "brand": "Lumiere",
+      "name": "Mineral Veil SPF 50",
+      "size": "50ml",
+      "price": 55,
+      "rating": 4.7,
+      "image": "assets/images/cat-skincare.jpg",
+      "alt": "assets/images/product-dropper.jpg",
+      "tags": [
+        "new",
+        "popular"
+      ]
+    },
+    {
+      "id": "sk-pha-exfol",
+      "cat": "skincare",
+      "sub": "treatment",
+      "brand": "Chronos",
+      "name": "PHA Resurfacing Exfoliant",
+      "size": "100ml",
+      "price": 62,
+      "rating": 4.6,
+      "image": "assets/images/product-dropper.jpg",
+      "alt": "assets/images/editorial.jpg",
+      "tags": []
+    },
+    {
+      "id": "sk-cera-barrier",
+      "cat": "skincare",
+      "sub": "moisturizer",
+      "brand": "B&S Apothecary",
+      "name": "Ceramide Barrier Cream",
+      "size": "50ml",
+      "price": 88,
+      "rating": 4.8,
+      "image": "assets/images/cat-skincare.jpg",
+      "alt": "assets/images/editorial.jpg",
+      "tags": [
+        "bestseller"
+      ]
+    },
+    {
+      "id": "sk-eye-vitk",
+      "cat": "skincare",
+      "sub": "eye",
+      "brand": "Lumiere",
+      "name": "Vitamin K Eye Concentrate",
+      "size": "15ml",
+      "price": 42,
+      "rating": 4.4,
+      "image": "assets/images/editorial.jpg",
+      "alt": "assets/images/product-dropper.jpg",
+      "tags": []
+    },
+    {
+      "id": "sk-clean-dual",
+      "cat": "skincare",
+      "sub": "cleanser",
+      "brand": "B&S Apothecary",
+      "name": "Dual-Phase Makeup Remover",
+      "size": "200ml",
+      "price": 36,
+      "rating": 4.7,
+      "image": "assets/images/product-dropper.jpg",
+      "alt": "assets/images/cat-skincare.jpg",
+      "tags": []
+    },
+    {
+      "id": "sk-azelaic",
+      "cat": "skincare",
+      "sub": "serum",
+      "brand": "Chronos",
+      "name": "Azelaic Acid 10% Booster",
+      "size": "30ml",
+      "price": 44,
+      "rating": 4.6,
+      "image": "assets/images/product-dropper.jpg",
+      "alt": "assets/images/editorial.jpg",
+      "tags": [
+        "new"
+      ]
+    },
+    {
+      "id": "sk-mask-honey",
+      "cat": "skincare",
+      "sub": "mask",
+      "brand": "B&S Apothecary",
+      "name": "Honey Overnight Mask",
+      "size": "75ml",
+      "price": 68,
+      "rating": 4.8,
+      "image": "assets/images/cat-skincare.jpg",
+      "alt": "assets/images/editorial.jpg",
+      "tags": [
+        "trending"
+      ]
+    },
+    {
+      "id": "mk-velvet-rouge",
+      "cat": "makeup",
+      "sub": "lips",
+      "brand": "Maison Velour",
+      "name": "Velvet Rouge Lipstick",
+      "size": "3.5g",
+      "price": 42,
+      "rating": 4.7,
+      "image": "assets/images/cat-makeup.jpg",
+      "alt": "assets/images/product-makeup.jpg",
+      "tags": [
+        "bestseller"
+      ]
+    },
+    {
+      "id": "mk-silk-found",
+      "cat": "makeup",
+      "sub": "complexion",
+      "brand": "Maison Velour",
+      "name": "Silk Foundation No.04",
+      "size": "30ml",
+      "price": 68,
+      "oldPrice": 82,
+      "rating": 4.8,
+      "image": "assets/images/product-makeup.jpg",
+      "alt": "assets/images/cat-makeup.jpg",
+      "tags": [
+        "trending",
+        "sale"
+      ]
+    },
+    {
+      "id": "mk-veil-primer",
+      "cat": "makeup",
+      "sub": "complexion",
+      "brand": "B&S Atelier",
+      "name": "Soft Veil Primer",
+      "size": "35ml",
+      "price": 46,
+      "rating": 4.6,
+      "image": "assets/images/product-makeup.jpg",
+      "alt": "assets/images/cat-makeup.jpg",
+      "tags": [
+        "new"
+      ]
+    },
+    {
+      "id": "mk-brow-sculpt",
+      "cat": "makeup",
+      "sub": "eyes",
+      "brand": "Velour Pro",
+      "name": "Brow Sculpt Laminate Gel",
+      "size": "6ml",
+      "price": 28,
+      "rating": 4.5,
+      "image": "assets/images/cat-makeup.jpg",
+      "alt": "assets/images/product-makeup.jpg",
+      "tags": [
+        "new"
+      ]
+    },
+    {
+      "id": "mk-cashmere-blush",
+      "cat": "makeup",
+      "sub": "cheeks",
+      "brand": "Maison Velour",
+      "name": "Cashmere Cream Blush",
+      "size": "8g",
+      "price": 36,
+      "rating": 4.8,
+      "image": "assets/images/product-makeup.jpg",
+      "alt": "assets/images/cat-makeup.jpg",
+      "tags": [
+        "bestseller"
+      ]
+    },
+    {
+      "id": "mk-kohl-noir",
+      "cat": "makeup",
+      "sub": "eyes",
+      "brand": "Noir Edit",
+      "name": "Kohl Noir Precision Pencil",
+      "size": "1.2g",
+      "price": 24,
+      "rating": 4.4,
+      "image": "assets/images/cat-makeup.jpg",
+      "alt": "assets/images/product-makeup.jpg",
+      "tags": []
+    },
+    {
+      "id": "mk-lip-oil",
+      "cat": "makeup",
+      "sub": "lips",
+      "brand": "B&S Atelier",
+      "name": "Glaze Lip Treatment Oil",
+      "size": "7ml",
+      "price": 32,
+      "rating": 4.7,
+      "image": "assets/images/product-makeup.jpg",
+      "alt": "assets/images/cat-makeup.jpg",
+      "tags": [
+        "trending"
+      ]
+    },
+    {
+      "id": "mk-ambient-powder",
+      "cat": "makeup",
+      "sub": "complexion",
+      "brand": "Velour Pro",
+      "name": "Ambient Finishing Powder",
+      "size": "10g",
+      "price": 54,
+      "rating": 4.8,
+      "image": "assets/images/cat-makeup.jpg",
+      "alt": "assets/images/product-makeup.jpg",
+      "tags": [
+        "bestseller"
+      ]
+    },
+    {
+      "id": "mk-lash-serum",
+      "cat": "makeup",
+      "sub": "eyes",
+      "brand": "B&S Apothecary",
+      "name": "Lash Conditioning Serum",
+      "size": "5ml",
+      "price": 52,
+      "rating": 4.6,
+      "image": "assets/images/product-makeup.jpg",
+      "alt": "assets/images/cat-makeup.jpg",
+      "tags": [
+        "new"
+      ]
+    },
+    {
+      "id": "mk-brush-edit",
+      "cat": "makeup",
+      "sub": "tools",
+      "brand": "Velour Pro",
+      "name": "The Complexion Brush Edit",
+      "size": "4 pcs",
+      "price": 88,
+      "rating": 4.7,
+      "image": "assets/images/cat-makeup.jpg",
+      "alt": "assets/images/product-makeup.jpg",
+      "tags": []
+    },
+    {
+      "id": "mk-setting-mist",
+      "cat": "makeup",
+      "sub": "setting",
+      "brand": "Maison Velour",
+      "name": "Luminous Setting Mist",
+      "size": "100ml",
+      "price": 38,
+      "rating": 4.5,
+      "image": "assets/images/product-makeup.jpg",
+      "alt": "assets/images/cat-makeup.jpg",
+      "tags": [
+        "trending"
+      ]
+    },
+    {
+      "id": "mk-palette",
+      "cat": "makeup",
+      "sub": "eyes",
+      "brand": "Noir Edit",
+      "name": "Satin Taupe Eye Palette",
+      "size": "9 shades",
+      "price": 76,
+      "rating": 4.9,
+      "image": "assets/images/cat-makeup.jpg",
+      "alt": "assets/images/product-makeup.jpg",
+      "tags": [
+        "bestseller"
+      ]
+    },
+    {
+      "id": "fr-nuit-blanche",
+      "cat": "fragrance",
+      "sub": "edp",
+      "brand": "Atelier Nuit",
+      "name": "Nuit Blanche EDP",
+      "size": "50ml",
+      "price": 125,
+      "rating": 4.9,
+      "image": "assets/images/cat-fragrance.jpg",
+      "alt": "assets/images/product-perfume.jpg",
+      "tags": [
+        "bestseller"
+      ]
+    },
+    {
+      "id": "fr-cedre-noir",
+      "cat": "fragrance",
+      "sub": "candle",
+      "brand": "Atelier Nuit",
+      "name": "Cedre Noir Candle",
+      "size": "250g",
+      "price": 72,
+      "rating": 4.9,
+      "image": "assets/images/product-candle.jpg",
+      "alt": "assets/images/cat-fragrance.jpg",
+      "tags": [
+        "trending"
+      ]
+    },
+    {
+      "id": "fr-santal-room",
+      "cat": "fragrance",
+      "sub": "diffuser",
+      "brand": "House of B&S",
+      "name": "Santal Room Diffuser",
+      "size": "200ml",
+      "price": 64,
+      "rating": 4.6,
+      "image": "assets/images/cat-fragrance.jpg",
+      "alt": "assets/images/product-candle.jpg",
+      "tags": [
+        "new"
+      ]
+    },
+    {
+      "id": "fr-rose-oud",
+      "cat": "fragrance",
+      "sub": "extrait",
+      "brand": "Atelier Nuit",
+      "name": "Rose Oud Extrait",
+      "size": "30ml",
+      "price": 165,
+      "rating": 4.8,
+      "image": "assets/images/product-perfume.jpg",
+      "alt": "assets/images/cat-fragrance.jpg",
+      "tags": [
+        "bestseller"
+      ]
+    },
+    {
+      "id": "fr-peau-silk",
+      "cat": "fragrance",
+      "sub": "body",
+      "brand": "Peau Maison",
+      "name": "Silk Perfumed Body Oil",
+      "size": "100ml",
+      "price": 58,
+      "rating": 4.7,
+      "image": "assets/images/cat-fragrance.jpg",
+      "alt": "assets/images/product-perfume.jpg",
+      "tags": [
+        "trending"
+      ]
+    },
+    {
+      "id": "fr-iris-veil",
+      "cat": "fragrance",
+      "sub": "edp",
+      "brand": "Peau Maison",
+      "name": "Iris Veil EDP",
+      "size": "75ml",
+      "price": 118,
+      "rating": 4.5,
+      "image": "assets/images/product-perfume.jpg",
+      "alt": "assets/images/cat-fragrance.jpg",
+      "tags": []
+    },
+    {
+      "id": "fr-voyage-set",
+      "cat": "fragrance",
+      "sub": "discovery",
+      "brand": "Atelier Nuit",
+      "name": "Voyage Discovery Set",
+      "size": "5 x 2ml",
+      "price": 34,
+      "rating": 4.8,
+      "image": "assets/images/cat-fragrance.jpg",
+      "alt": "assets/images/product-perfume.jpg",
+      "tags": [
+        "new"
+      ]
+    },
+    {
+      "id": "fr-fig-leaf",
+      "cat": "fragrance",
+      "sub": "candle",
+      "brand": "House of B&S",
+      "name": "Fig Leaf Ceramic Candle",
+      "size": "300g",
+      "price": 78,
+      "oldPrice": 92,
+      "rating": 4.6,
+      "image": "assets/images/product-candle.jpg",
+      "alt": "assets/images/cat-fragrance.jpg",
+      "tags": [
+        "sale"
+      ]
+    },
+    {
+      "id": "fr-ambre-linen",
+      "cat": "fragrance",
+      "sub": "diffuser",
+      "brand": "House of B&S",
+      "name": "Ambre Linen Spray",
+      "size": "100ml",
+      "price": 36,
+      "rating": 4.4,
+      "image": "assets/images/cat-fragrance.jpg",
+      "alt": "assets/images/product-candle.jpg",
+      "tags": []
+    },
+    {
+      "id": "fr-musk-elixir",
+      "cat": "fragrance",
+      "sub": "extrait",
+      "brand": "Peau Maison",
+      "name": "White Musk Elixir",
+      "size": "30ml",
+      "price": 145,
+      "rating": 4.7,
+      "image": "assets/images/product-perfume.jpg",
+      "alt": "assets/images/cat-fragrance.jpg",
+      "tags": [
+        "trending"
+      ]
+    },
+    {
+      "id": "fr-citrus-edp",
+      "cat": "fragrance",
+      "sub": "edp",
+      "brand": "Atelier Nuit",
+      "name": "Citrus Neroli EDP",
+      "size": "50ml",
+      "price": 102,
+      "rating": 4.5,
+      "image": "assets/images/cat-fragrance.jpg",
+      "alt": "assets/images/product-perfume.jpg",
+      "tags": [
+        "new"
+      ]
+    },
+    {
+      "id": "fr-mineral-soap",
+      "cat": "fragrance",
+      "sub": "body",
+      "brand": "Peau Maison",
+      "name": "Mineral Perfumed Soap Duo",
+      "size": "2 x 120g",
+      "price": 30,
+      "rating": 4.3,
+      "image": "assets/images/product-candle.jpg",
+      "alt": "assets/images/cat-fragrance.jpg",
+      "tags": []
+    },
+    {
+      "id": "df-ha-classic",
+      "cat": "dermal-fillers",
+      "sub": "dermal-fillers",
+      "brand": "Clinique Supply",
+      "name": "HA Classic Lidocaine",
+      "size": "1ml",
+      "price": 88,
+      "rating": 4.8,
+      "image": "assets/images/cat-dermal.jpg",
+      "alt": "assets/images/product-dropper.jpg",
+      "tags": [
+        "bestseller"
+      ]
+    },
+    {
+      "id": "df-ha-volume",
+      "cat": "dermal-fillers",
+      "sub": "dermal-fillers",
+      "brand": "Clinique Supply",
+      "name": "HA Volume Deep",
+      "size": "1ml",
+      "price": 108,
+      "rating": 4.7,
+      "image": "assets/images/cat-dermal.jpg",
+      "alt": "assets/images/editorial.jpg",
+      "tags": [
+        "trending"
+      ]
+    },
+    {
+      "id": "df-skin-glow",
+      "cat": "dermal-fillers",
+      "sub": "skin-boosters",
+      "brand": "Med Esthetique",
+      "name": "Skin Glow Booster Pack",
+      "size": "3 x 2ml",
+      "price": 145,
+      "rating": 4.6,
+      "image": "assets/images/product-dropper.jpg",
+      "alt": "assets/images/cat-dermal.jpg",
+      "tags": [
+        "new"
+      ]
+    },
+    {
+      "id": "df-hydra-plus",
+      "cat": "dermal-fillers",
+      "sub": "skin-boosters",
+      "brand": "Med Esthetique",
+      "name": "Hydra Plus Skin Booster",
+      "size": "5 x 5ml",
+      "price": 120,
+      "rating": 4.5,
+      "image": "assets/images/cat-dermal.jpg",
+      "alt": "assets/images/product-dropper.jpg",
+      "tags": []
+    },
+    {
+      "id": "df-lipo-contour",
+      "cat": "dermal-fillers",
+      "sub": "fat-dissolvers",
+      "brand": "Contour Lab",
+      "name": "Lipo Contour Ampoules",
+      "size": "10 x 5ml",
+      "price": 98,
+      "rating": 4.5,
+      "image": "assets/images/cat-dermal.jpg",
+      "alt": "assets/images/product-dropper.jpg",
+      "tags": [
+        "new"
+      ]
+    },
+    {
+      "id": "df-lipo-sculpt",
+      "cat": "dermal-fillers",
+      "sub": "fat-dissolvers",
+      "brand": "Contour Lab",
+      "name": "Sculpt Dissolver Complex",
+      "size": "5 x 10ml",
+      "price": 135,
+      "rating": 4.4,
+      "image": "assets/images/product-dropper.jpg",
+      "alt": "assets/images/cat-dermal.jpg",
+      "tags": [
+        "trending"
+      ]
+    },
+    {
+      "id": "df-under-eye-hydra",
+      "cat": "dermal-fillers",
+      "sub": "under-eye-boosters",
+      "brand": "Med Esthetique",
+      "name": "Under Eye Hydra Booster",
+      "size": "3 x 2ml",
+      "price": 118,
+      "rating": 4.6,
+      "image": "assets/images/editorial.jpg",
+      "alt": "assets/images/product-dropper.jpg",
+      "tags": [
+        "new"
+      ]
+    },
+    {
+      "id": "df-under-eye-bright",
+      "cat": "dermal-fillers",
+      "sub": "under-eye-boosters",
+      "brand": "B&S Clinical",
+      "name": "Bright Eye Recovery Vials",
+      "size": "5 x 3ml",
+      "price": 92,
+      "rating": 4.5,
+      "image": "assets/images/product-dropper.jpg",
+      "alt": "assets/images/editorial.jpg",
+      "tags": []
+    },
+    {
+      "id": "df-exosome-regen",
+      "cat": "dermal-fillers",
+      "sub": "exosomes",
+      "brand": "ExoLab",
+      "name": "Exosome Regeneration Ampoules",
+      "size": "5 x 5ml",
+      "price": 168,
+      "rating": 4.7,
+      "image": "assets/images/cat-dermal.jpg",
+      "alt": "assets/images/editorial.jpg",
+      "tags": [
+        "bestseller"
+      ]
+    },
+    {
+      "id": "df-exosome-glow",
+      "cat": "dermal-fillers",
+      "sub": "exosomes",
+      "brand": "ExoLab",
+      "name": "Exosome Glow Complex",
+      "size": "10 x 3ml",
+      "price": 190,
+      "rating": 4.8,
+      "image": "assets/images/product-dropper.jpg",
+      "alt": "assets/images/cat-dermal.jpg",
+      "tags": [
+        "trending"
+      ]
+    },
+    {
+      "id": "df-peel-glycolic",
+      "cat": "dermal-fillers",
+      "sub": "chemical-peel",
+      "brand": "B&S Clinical",
+      "name": "Glycolic Peel 35%",
+      "size": "30ml",
+      "price": 62,
+      "rating": 4.4,
+      "image": "assets/images/editorial.jpg",
+      "alt": "assets/images/cat-dermal.jpg",
+      "tags": [
+        "new"
+      ]
+    },
+    {
+      "id": "df-peel-lactic",
+      "cat": "dermal-fillers",
+      "sub": "chemical-peel",
+      "brand": "B&S Clinical",
+      "name": "Lactic Radiance Peel",
+      "size": "30ml",
+      "price": 58,
+      "rating": 4.3,
+      "image": "assets/images/cat-dermal.jpg",
+      "alt": "assets/images/product-dropper.jpg",
+      "tags": []
+    },
+    {
+      "id": "df-plla-lift",
+      "cat": "dermal-fillers",
+      "sub": "plla",
+      "brand": "Sculpta Pro",
+      "name": "PLLA Collagen Lift",
+      "size": "1 vial",
+      "price": 210,
+      "rating": 4.7,
+      "image": "assets/images/product-dropper.jpg",
+      "alt": "assets/images/editorial.jpg",
+      "tags": [
+        "bestseller"
+      ]
+    },
+    {
+      "id": "df-plla-refine",
+      "cat": "dermal-fillers",
+      "sub": "plla",
+      "brand": "Sculpta Pro",
+      "name": "PLLA Refine Set",
+      "size": "2 vials",
+      "price": 380,
+      "rating": 4.6,
+      "image": "assets/images/cat-dermal.jpg",
+      "alt": "assets/images/product-dropper.jpg",
+      "tags": [
+        "new"
+      ]
+    },
+    {
+      "id": "df-cannula-25",
+      "cat": "dermal-fillers",
+      "sub": "clinic-consumables",
+      "brand": "ProClinic",
+      "name": "Soft-Tip Cannula 25G",
+      "size": "20 pcs",
+      "price": 42,
+      "rating": 4.4,
+      "image": "assets/images/editorial.jpg",
+      "alt": "assets/images/cat-dermal.jpg",
+      "tags": []
+    },
+    {
+      "id": "df-cannula-27",
+      "cat": "dermal-fillers",
+      "sub": "clinic-consumables",
+      "brand": "ProClinic",
+      "name": "Soft-Tip Cannula 27G",
+      "size": "20 pcs",
+      "price": 42,
+      "rating": 4.4,
+      "image": "assets/images/cat-dermal.jpg",
+      "alt": "assets/images/editorial.jpg",
+      "tags": [
+        "new"
+      ]
+    },
+    {
+      "id": "df-post-care",
+      "cat": "dermal-fillers",
+      "sub": "clinic-consumables",
+      "brand": "B&S Clinical",
+      "name": "Post-Treatment Recovery Gel",
+      "size": "50ml",
+      "price": 34,
+      "rating": 4.6,
+      "image": "assets/images/product-dropper.jpg",
+      "alt": "assets/images/cat-dermal.jpg",
+      "tags": [
+        "bestseller"
+      ]
+    },
+    {
+      "id": "df-ice-mask",
+      "cat": "dermal-fillers",
+      "sub": "clinic-consumables",
+      "brand": "B&S Clinical",
+      "name": "Cooling Recovery Mask",
+      "size": "5 pcs",
+      "price": 28,
+      "rating": 4.5,
+      "image": "assets/images/cat-dermal.jpg",
+      "alt": "assets/images/editorial.jpg",
+      "tags": [
+        "trending"
+      ]
+    },
+    {
+      "id": "df-meso-vit",
+      "cat": "dermal-fillers",
+      "sub": "mesotherapy",
+      "brand": "Med Esthetique",
+      "name": "Vitamin Meso Complex",
+      "size": "10 x 3ml",
+      "price": 132,
+      "oldPrice": 155,
+      "rating": 4.5,
+      "image": "assets/images/product-dropper.jpg",
+      "alt": "assets/images/cat-dermal.jpg",
+      "tags": [
+        "sale"
+      ]
+    },
+    {
+      "id": "df-hyaluron-pen",
+      "cat": "dermal-fillers",
+      "sub": "clinic-consumables",
+      "brand": "ProClinic",
+      "name": "Precision Mapping Pencil Set",
+      "size": "12 pcs",
+      "price": 18,
+      "rating": 4.2,
+      "image": "assets/images/editorial.jpg",
+      "alt": "assets/images/cat-dermal.jpg",
+      "tags": []
+    },
+    {
+      "id": "dv-aurora-led",
+      "cat": "devices",
+      "sub": "led",
+      "brand": "Aurora Tech",
+      "name": "Aurora LED Therapy Mask",
+      "size": "1 unit",
+      "price": 495,
+      "rating": 4.8,
+      "image": "assets/images/cat-devices.jpg",
+      "alt": "assets/images/cat-dermal.jpg",
+      "tags": [
+        "new",
+        "bestseller"
+      ]
+    },
+    {
+      "id": "dv-lift-current",
+      "cat": "devices",
+      "sub": "microcurrent",
+      "brand": "LumaLift",
+      "name": "Contour Microcurrent Wand",
+      "size": "1 unit",
+      "price": 260,
+      "rating": 4.7,
+      "image": "assets/images/cat-devices.jpg",
+      "alt": "assets/images/editorial.jpg",
+      "tags": [
+        "trending"
+      ]
+    },
+    {
+      "id": "dv-sonic-cleanse",
+      "cat": "devices",
+      "sub": "cleansing",
+      "brand": "Aurora Tech",
+      "name": "Sonic Cleansing Disc",
+      "size": "1 unit",
+      "price": 98,
+      "rating": 4.5,
+      "image": "assets/images/cat-devices.jpg",
+      "alt": "assets/images/cat-skincare.jpg",
+      "tags": [
+        "new"
+      ]
+    },
+    {
+      "id": "dv-derma-cool",
+      "cat": "devices",
+      "sub": "cryo",
+      "brand": "Cryo Maison",
+      "name": "Derma Cool Globes",
+      "size": "2 pcs",
+      "price": 72,
+      "rating": 4.6,
+      "image": "assets/images/cat-dermal.jpg",
+      "alt": "assets/images/cat-devices.jpg",
+      "tags": [
+        "bestseller"
+      ]
+    },
+    {
+      "id": "dv-ultra-spatula",
+      "cat": "devices",
+      "sub": "ultrasonic",
+      "brand": "LumaLift",
+      "name": "Ultrasonic Skin Spatula",
+      "size": "1 unit",
+      "price": 135,
+      "rating": 4.4,
+      "image": "assets/images/cat-devices.jpg",
+      "alt": "assets/images/product-dropper.jpg",
+      "tags": []
+    },
+    {
+      "id": "dv-led-neck",
+      "cat": "devices",
+      "sub": "led",
+      "brand": "Aurora Tech",
+      "name": "LED Neck & Decollete Plate",
+      "size": "1 unit",
+      "price": 340,
+      "rating": 4.6,
+      "image": "assets/images/cat-devices.jpg",
+      "alt": "assets/images/cat-dermal.jpg",
+      "tags": [
+        "trending"
+      ]
+    },
+    {
+      "id": "dv-gua-sha",
+      "cat": "devices",
+      "sub": "manual",
+      "brand": "B&S Atelier",
+      "name": "Rose Quartz Sculpt Tool",
+      "size": "1 pc",
+      "price": 38,
+      "rating": 4.5,
+      "image": "assets/images/editorial.jpg",
+      "alt": "assets/images/cat-devices.jpg",
+      "tags": []
+    },
+    {
+      "id": "dv-roller-gold",
+      "cat": "devices",
+      "sub": "manual",
+      "brand": "B&S Atelier",
+      "name": "24K Facial Roller",
+      "size": "1 pc",
+      "price": 52,
+      "rating": 4.6,
+      "image": "assets/images/cat-devices.jpg",
+      "alt": "assets/images/editorial.jpg",
+      "tags": [
+        "new"
+      ]
+    },
+    {
+      "id": "dv-pore-vac",
+      "cat": "devices",
+      "sub": "cleansing",
+      "brand": "LumaLift",
+      "name": "Smart Pore Refiner",
+      "size": "1 unit",
+      "price": 115,
+      "oldPrice": 140,
+      "rating": 4.2,
+      "image": "assets/images/cat-devices.jpg",
+      "alt": "assets/images/cat-skincare.jpg",
+      "tags": [
+        "sale"
+      ]
+    },
+    {
+      "id": "dv-eye-massager",
+      "cat": "devices",
+      "sub": "massage",
+      "brand": "Cryo Maison",
+      "name": "Heated Eye Therapy Wand",
+      "size": "1 unit",
+      "price": 128,
+      "rating": 4.5,
+      "image": "assets/images/cat-devices.jpg",
+      "alt": "assets/images/editorial.jpg",
+      "tags": [
+        "trending"
+      ]
+    },
+    {
+      "id": "dv-led-mini",
+      "cat": "devices",
+      "sub": "led",
+      "brand": "Aurora Tech",
+      "name": "Mini Spot LED Corrector",
+      "size": "1 unit",
+      "price": 88,
+      "rating": 4.3,
+      "image": "assets/images/cat-devices.jpg",
+      "alt": "assets/images/cat-dermal.jpg",
+      "tags": []
+    },
+    {
+      "id": "dv-sanitizer",
+      "cat": "devices",
+      "sub": "accessories",
+      "brand": "ProClinic",
+      "name": "UV Tool Sanitizer Case",
+      "size": "1 unit",
+      "price": 74,
+      "rating": 4.4,
+      "image": "assets/images/cat-devices.jpg",
+      "alt": "assets/images/cat-dermal.jpg",
+      "tags": [
+        "new"
+      ]
+    },
+    {
+      "id": "we-radiance",
+      "cat": "wellness",
+      "sub": "collagen",
+      "brand": "Vitae",
+      "name": "Radiance Collagen Powder",
+      "size": "180g",
+      "price": 65,
+      "rating": 4.6,
+      "image": "assets/images/cat-wellness.jpg",
+      "alt": "assets/images/cat-skincare.jpg",
+      "tags": [
+        "new",
+        "bestseller"
+      ]
+    },
+    {
+      "id": "we-beauty-drops",
+      "cat": "wellness",
+      "sub": "supplement",
+      "brand": "Vitae",
+      "name": "Beauty Sleep Drops",
+      "size": "30ml",
+      "price": 42,
+      "rating": 4.5,
+      "image": "assets/images/product-dropper.jpg",
+      "alt": "assets/images/cat-wellness.jpg",
+      "tags": [
+        "trending"
+      ]
+    },
+    {
+      "id": "we-adapt-caps",
+      "cat": "wellness",
+      "sub": "adaptogen",
+      "brand": "Inner Form",
+      "name": "Adaptogen Balance Capsules",
+      "size": "60 caps",
+      "price": 48,
+      "rating": 4.4,
+      "image": "assets/images/cat-wellness.jpg",
+      "alt": "assets/images/editorial.jpg",
+      "tags": [
+        "new"
+      ]
+    },
+    {
+      "id": "we-skin-tea",
+      "cat": "wellness",
+      "sub": "tea",
+      "brand": "Inner Form",
+      "name": "Skin Clarity Tea Ritual",
+      "size": "30 sachets",
+      "price": 28,
+      "rating": 4.6,
+      "image": "assets/images/cat-wellness.jpg",
+      "alt": "assets/images/product-candle.jpg",
+      "tags": [
+        "bestseller"
+      ]
+    },
+    {
+      "id": "we-electrolyte",
+      "cat": "wellness",
+      "sub": "hydration",
+      "brand": "Vitae",
+      "name": "Daily Hydration Sachets",
+      "size": "20 sachets",
+      "price": 34,
+      "rating": 4.3,
+      "image": "assets/images/cat-wellness.jpg",
+      "alt": "assets/images/cat-skincare.jpg",
+      "tags": []
+    },
+    {
+      "id": "we-magnesium",
+      "cat": "wellness",
+      "sub": "sleep",
+      "brand": "Inner Form",
+      "name": "Magnesium Night Complex",
+      "size": "90 caps",
+      "price": 38,
+      "rating": 4.7,
+      "image": "assets/images/cat-wellness.jpg",
+      "alt": "assets/images/editorial.jpg",
+      "tags": [
+        "trending"
+      ]
+    },
+    {
+      "id": "we-body-brush",
+      "cat": "wellness",
+      "sub": "body",
+      "brand": "B&S Atelier",
+      "name": "Lymphatic Body Brush",
+      "size": "1 pc",
+      "price": 32,
+      "rating": 4.4,
+      "image": "assets/images/editorial.jpg",
+      "alt": "assets/images/cat-wellness.jpg",
+      "tags": []
+    },
+    {
+      "id": "we-bath-mineral",
+      "cat": "wellness",
+      "sub": "body",
+      "brand": "B&S Atelier",
+      "name": "Mineral Bath Soak",
+      "size": "500g",
+      "price": 36,
+      "rating": 4.5,
+      "image": "assets/images/cat-wellness.jpg",
+      "alt": "assets/images/product-candle.jpg",
+      "tags": [
+        "new"
+      ]
+    },
+    {
+      "id": "we-probiotic",
+      "cat": "wellness",
+      "sub": "supplement",
+      "brand": "Vitae",
+      "name": "Barrier Biome Probiotic",
+      "size": "30 caps",
+      "price": 54,
+      "oldPrice": 68,
+      "rating": 4.5,
+      "image": "assets/images/cat-wellness.jpg",
+      "alt": "assets/images/product-dropper.jpg",
+      "tags": [
+        "sale"
+      ]
+    },
+    {
+      "id": "we-collagen-shots",
+      "cat": "wellness",
+      "sub": "collagen",
+      "brand": "Vitae",
+      "name": "Marine Collagen Shots",
+      "size": "14 x 50ml",
+      "price": 70,
+      "rating": 4.6,
+      "image": "assets/images/cat-wellness.jpg",
+      "alt": "assets/images/cat-skincare.jpg",
+      "tags": [
+        "trending"
+      ]
+    },
+    {
+      "id": "we-aroma-pulse",
+      "cat": "wellness",
+      "sub": "sleep",
+      "brand": "Inner Form",
+      "name": "Aroma Pulse Point Oil",
+      "size": "10ml",
+      "price": 26,
+      "rating": 4.4,
+      "image": "assets/images/product-dropper.jpg",
+      "alt": "assets/images/cat-wellness.jpg",
+      "tags": []
+    },
+    {
+      "id": "we-green-blend",
+      "cat": "wellness",
+      "sub": "supplement",
+      "brand": "Vitae",
+      "name": "Greens + Glow Blend",
+      "size": "240g",
+      "price": 58,
+      "rating": 4.5,
+      "image": "assets/images/cat-wellness.jpg",
+      "alt": "assets/images/editorial.jpg",
+      "tags": [
+        "bestseller"
+      ]
+    }
+  ]
+}

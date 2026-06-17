@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product &mdash; B&amp;S Aesthetics</title>
+  <link rel="icon" type="image/png" href="Logo/bnslogoWhitebgchatbot.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Inter:wght@300;400;500;600;700&family=Pinyon+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+  <div class="announcement">
+    <div class="announcement__track">
+      <div class="announcement__group">
+        <span>&#10022; Complimentary delivery on orders over &pound;150</span>
+        <span>&#10022; 10% off your first order &mdash; code <b>WELCOME10</b></span>
+        <span>&#10022; New season edit &mdash; discover the latest arrivals</span>
+        <span>&#10022; Same-day London dispatch on orders before 3pm</span>
+      </div>
+      <div class="announcement__group" aria-hidden="true">
+        <span>&#10022; Complimentary delivery on orders over &pound;150</span>
+        <span>&#10022; 10% off your first order &mdash; code <b>WELCOME10</b></span>
+        <span>&#10022; New season edit &mdash; discover the latest arrivals</span>
+        <span>&#10022; Same-day London dispatch on orders before 3pm</span>
+      </div>
+    </div>
+  </div>
+
+  <header class="header" id="header">
+    <div class="header__inner container">
+      <div class="header__left">
+        <button class="header__menu" aria-label="Menu" id="menuToggle"><span></span><span></span></button>
+        <a href="index.html" class="header__brand" aria-label="B&amp;S Aesthetics home">
+          <img src="Logo/bnslogoWhitebgchatbot.png" alt="" class="header__logo" aria-hidden="true">
+          <span class="header__wordmark"><span class="header__wordmark-name">B<i>&amp;</i>S</span><span class="header__wordmark-tag">Aesthetics</span></span>
+        </a>
+        <nav class="header__nav" aria-label="Primary">
+          <ul>
+            <li><a href="dermal-fillers.html?filter=dermal-fillers" class="has-menu">Dermal Fillers<span class="nav-caret" aria-hidden="true"></span></a></li>
+            <li><a href="dermal-fillers.html?filter=fat-dissolvers">Fat Dissolvers</a></li>
+            <li><a href="dermal-fillers.html?filter=skin-boosters" class="has-menu">Skin Boosters<span class="nav-caret" aria-hidden="true"></span></a></li>
+            <li><a href="dermal-fillers.html?filter=under-eye-boosters">Under Eye Boosters</a></li>
+            <li><a href="dermal-fillers.html?filter=exosomes">Exosomes</a></li>
+            <li><a href="dermal-fillers.html?filter=mesotherapy">Mesotherapy</a></li>
+            <li><a href="dermal-fillers.html?filter=chemical-peel">Chemical Peel</a></li>
+            <li><a href="dermal-fillers.html?filter=clinic-consumables" class="has-menu">Clinic Consumables<span class="nav-caret" aria-hidden="true"></span></a></li>
+            <li><a href="index.html#categories" class="has-menu">More<span class="nav-caret" aria-hidden="true"></span></a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header__right">
+        <button aria-label="Search" class="header__action" data-search-open>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+        </button>
+        <a href="login.html" aria-label="Account" class="header__action" data-account-link>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-7 8-7s8 3 8 7"/></svg>
+        </a>
+        <button aria-label="Cart" class="header__action header__cart" data-cart-toggle>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 6h18l-2 12H5L3 6z"/><path d="M8 6V4a4 4 0 0 1 8 0v2"/></svg>
+          <span class="header__cart-count is-empty">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="pdp-main">
+    <div class="container">
+      <nav class="cat-hero__crumbs pdp-crumbs" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
+        <span>·</span>
+        <a id="pdpCatLink" href="index.html">Catalogue</a>
+        <span>·</span>
+        <span aria-current="page" id="pdpCrumbName">Product</span>
+      </nav>
+
+      <section class="pdp" id="pdp" hidden>
+        <div class="pdp__gallery">
+          <div class="pdp__main"><img id="pdpMainImg" src="" alt=""></div>
+          <div class="pdp__thumbs" id="pdpThumbs"></div>
+        </div>
+
+        <div class="pdp__info">
+          <span class="pdp__brand" id="pdpBrand"></span>
+          <h1 class="pdp__title" id="pdpName"></h1>
+          <div class="pdp__meta">
+            <span class="pdp__rating" id="pdpRating"></span>
+            <span class="pdp__size" id="pdpSize"></span>
+          </div>
+          <div class="pdp__price" id="pdpPrice"></div>
+
+          <p class="pdp__desc" id="pdpDesc"></p>
+
+          <div class="pdp__qty" aria-label="Quantity">
+            <button type="button" data-pdp-dec aria-label="Decrease">&minus;</button>
+            <span id="pdpQty">1</span>
+            <button type="button" data-pdp-inc aria-label="Increase">+</button>
+          </div>
+
+          <button class="btn btn--primary pdp__add" type="button" id="pdpAdd">
+            <span>Add to bag</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </button>
+          <button class="btn btn--ghost pdp__wishlist" type="button" id="pdpWish">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21s-7-4.5-9-9a5 5 0 0 1 9-3 5 5 0 0 1 9 3c-2 4.5-9 9-9 9z"/></svg>
+            <span>Save to wishlist</span>
+          </button>
+
+          <ul class="pdp__perks">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 12l4 4L21 6"/></svg> Authenticity guaranteed</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg> Same-day London dispatch before 3pm</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M4 7h16M4 12h16M4 17h10"/></svg> Free 30-day returns</li>
+          </ul>
+
+          <details class="pdp__details" open>
+            <summary>Description</summary>
+            <p id="pdpLongDesc"></p>
+          </details>
+          <details class="pdp__details">
+            <summary>How to use</summary>
+            <p>Apply to clean skin morning and evening. Pat gently into face and neck, follow with moisturizer. For external use only.</p>
+          </details>
+          <details class="pdp__details">
+            <summary>Delivery &amp; returns</summary>
+            <p>Standard UK delivery £5.95 (free over £150). Express next-day £12. Returns accepted within 30 days for unused product in original packaging.</p>
+          </details>
+        </div>
+      </section>
+
+      <section class="pdp-empty" id="pdpEmpty" hidden>
+        <h1>We couldn&rsquo;t find that product.</h1>
+        <p>It may have moved, sold out, or never existed. Browse the curated edit instead.</p>
+        <a href="index.html" class="btn btn--primary"><span>Back to home</span></a>
+      </section>
+
+      <section class="pdp-related" id="pdpRelated" hidden>
+        <header class="pdp-related__head">
+          <span class="eyebrow">You may also like</span>
+          <h2>Pairs well with</h2>
+        </header>
+        <div class="pdp-related__grid" id="pdpRelatedGrid"></div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <div class="footer__brand-mark"><img src="Logo/bnslogoWhitebgchatbot.png" alt="B&amp;S Aesthetics"></div>
+          <div class="footer__wordmark"><span class="footer__wordmark-name">B<i>&amp;</i>S</span><span class="footer__wordmark-tag">Aesthetics</span></div>
+          <p>Curated premium aesthetic products. Crafted in London, shipped worldwide.</p>
+        </div>
+        <div class="footer__cols">
+          <div class="footer__col"><h4>Shop</h4><ul><li><a href="skincare.html">Skincare</a></li><li><a href="makeup.html">Makeup</a></li><li><a href="fragrance.html">Fragrance</a></li><li><a href="dermal-fillers.html">Dermal Fillers</a></li><li><a href="devices.html">Devices</a></li><li><a href="wellness.html">Wellness</a></li><li><a href="index.html#products">New In</a></li></ul></div>
+          <div class="footer__col"><h4>Care</h4><ul><li><a href="#">Contact</a></li><li><a href="#">Delivery</a></li><li><a href="#">Returns</a></li><li><a href="#">FAQs</a></li><li><a href="#">Track order</a></li></ul></div>
+          <div class="footer__col"><h4>House</h4><ul><li><a href="#">Our story</a></li><li><a href="#">Journal</a></li><li><a href="#">Press</a></li><li><a href="#">Sustainability</a></li><li><a href="#">Careers</a></li></ul></div>
+        </div>
+      </div>
+      <div class="footer__bottom"><span>&copy; 2026 B&amp;S Aesthetics. All rights reserved.</span><div class="footer__legal"><a href="#">Privacy</a><a href="#">Terms</a><a href="#">Cookies</a><a href="#">Modern Slavery</a></div></div>
+    </div>
+  </footer>
+
+  <aside class="cart-drawer" id="cartDrawer" aria-hidden="true">
+    <div class="cart-drawer__backdrop" data-cart-close></div>
+    <div class="cart-drawer__panel" role="dialog" aria-label="Shopping bag">
+      <header class="cart-drawer__header"><h3>Your Bag <span class="cart-drawer__count" data-cart-count>0</span></h3><button class="cart-drawer__close" data-cart-close aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M6 6l12 12M6 18 18 6"/></svg></button></header>
+      <div class="cart-drawer__items" id="cartItems"></div>
+      <div class="cart-drawer__empty" id="cartEmpty"><div class="cart-drawer__empty-icon"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1"><path d="M16 22h32l-3 30H19L16 22z"/><path d="M22 22V14a10 10 0 0 1 20 0v8"/></svg></div><h4>Your bag is empty</h4><p>Discover our curated edit and start your collection.</p><button class="btn btn--primary" data-cart-close type="button"><span>Continue shopping</span></button></div>
+      <footer class="cart-drawer__footer" id="cartFooter" hidden><div class="cart-drawer__row"><span>Subtotal</span><strong id="cartSubtotal">&pound;0.00</strong></div><small>Shipping and taxes calculated at checkout.</small><button class="btn btn--primary cart-drawer__checkout" type="button"><span>Checkout</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></footer>
+    </div>
+  </aside>
+
+  <script src="assets/js/cms-content.js"></script>
+  <script src="assets/js/cms-site.js"></script>
+  <script src="assets/js/products.js"></script>
+  <script src="assets/js/cart.js"></script>
+  <script src="assets/js/account-state.js"></script>
+  <script src="assets/js/search.js"></script>
+  <script src="assets/js/nav.js"></script>
+  <script src="assets/js/product.js"></script>
+  <script>
+    (function () {
+      const header = document.getElementById('header');
+      const onScroll = () => header && (window.scrollY > 30 ? header.classList.add('is-scrolled') : header.classList.remove('is-scrolled'));
+      window.addEventListener('scroll', onScroll, { passive: true });
+      onScroll();
+      const io = new IntersectionObserver((entries) => {
+        entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('is-revealed'); io.unobserve(e.target); } });
+      }, { threshold: 0.15, rootMargin: '0px 0px -60px 0px' });
+      window.__bsReveal = io;
+      document.querySelectorAll('[data-reveal], [data-reveal-card], [data-reveal-text]').forEach(el => io.observe(el));
+    })();
+  </script>
+</body>
+</html>

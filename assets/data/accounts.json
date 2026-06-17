@@ -1,0 +1,54 @@
+{
+  "users": [
+    {
+      "id": "1d74e7913eb77acf",
+      "email": "test@example.com",
+      "firstName": "Test",
+      "lastName": "User",
+      "passwordSalt": "a5ecb0aa53c55368cf64881c453b551b",
+      "passwordHash": "4463c2a191eb3b4fdc5275bcd70710d27bd56ee157dccfb3333768670bbb92c5f3e48fec55df7a6a9037d4fdc94b7e2d50cb0fb40a13c2522b47635394aaa6c3",
+      "createdAt": "2026-05-08T11:41:20.726Z",
+      "orders": []
+    }
+  ],
+  "orders": [
+    {
+      "orderNumber": "BS-TEST-G1",
+      "placedAt": "2026-05-08T14:00:00Z",
+      "userId": null,
+      "status": "pending",
+      "contact": {
+        "email": "guest@example.com"
+      },
+      "shipping": {
+        "firstName": "Guest",
+        "lastName": "User",
+        "address": "1 X",
+        "city": "London",
+        "postcode": "W1",
+        "country": "GB",
+        "method": "standard"
+      },
+      "items": [
+        {
+          "id": "sk-creme-regen",
+          "brand": "BS",
+          "name": "Test",
+          "size": "",
+          "image": "",
+          "price": 50,
+          "qty": 1
+        }
+      ],
+      "promoCode": null,
+      "totals": {
+        "subtotal": 50,
+        "discount": 0,
+        "shipping": 5.95,
+        "vat": 9.99,
+        "grand": 55.95
+      },
+      "etaIso": "2026-05-12T00:00:00Z"
+    }
+  ]
+}
